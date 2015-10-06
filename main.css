@@ -1,0 +1,33 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.container {
+  width: 610px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#calculator {
+  margin: 0 auto;
+}
+
+.button {
+  width: 90px;
+  display: inline-block;
+  float: left;
+  font-size: 30px;
+  color: gray;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.button:nth-child(4n+1){
+    clear:left
+}
